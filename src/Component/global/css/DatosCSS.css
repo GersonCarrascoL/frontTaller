@@ -30,3 +30,16 @@ td{
    background-color: #bee5eb;
   cursor: pointer;
 }
+
+.center-block{
+  display: flex;
+  justify-content: center;
+}
+
+.btn-enviar{
+  background-color:red;
+  color:white;
+  border:none;
+  border-radius: 8px;
+  padding: 4px 10px;
+}

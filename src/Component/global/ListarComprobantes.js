@@ -243,7 +243,6 @@ class ListarComponentes extends Component {
             },
             body: JSON.stringify(arreglo)
         })
-            .then(res => res.json())
             .then(res => {
                 if (res.status) { // exito
                     this.setState({
@@ -343,7 +342,9 @@ class ListarComponentes extends Component {
                     )}
                     </tbody>
                 </table>
-                <button id="Enviar" onClick={this.handleEnviarData} className="btn btn-danger">Registrar</button>
+                <div className="center-block">
+                    <button id="Enviar" onClick={this.handleEnviarData} className="btn-enviar">Registrar</button>
+                </div>
             </div>
         );
     }

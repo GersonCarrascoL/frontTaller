@@ -65,7 +65,7 @@ class ListarComponentes extends Component {
                 'Content-Type': 'application/json',
             }
         })
-            .then(res => res.json())
+            
             .then(res => {
                 if (res.status) { // exito
                     let dataTipo = res["data"];
