@@ -1,0 +1,32 @@
+
+.DatosCSS-input-checkbox {
+  width:20px;
+  height:17px;
+}
+td{
+  height: auto;
+}
+.tabla{
+  width: 95%;
+  height:auto;
+  overflow:auto;
+  margin: auto;
+}
+
+.tabla-cabecera{
+  color: white;
+  background-color: rgb(16, 81, 158);
+}
+
+.table-scroll{
+  width: 100%;
+  margin-top:1.5%;
+  margin-bottom: 1.5%;
+}
+.btn btn-danger{
+  text-align: center;
+}
+.detalles:hover{
+   background-color: #bee5eb;
+  cursor: pointer;
+}
